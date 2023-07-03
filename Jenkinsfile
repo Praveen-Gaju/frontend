@@ -2,4 +2,4 @@
 
 env.component = "frontend"
 env.app_lang = "angulae"
-ci()
+ci_scripted()
