@@ -4,3 +4,11 @@ params: ""
 service:
   type: LoadBalancer
   port: 80
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 600Mi
+  requests:
+    cpu: 400m
+    memory: 450Mi
